@@ -1,19 +1,14 @@
 import subprocess
 from pynput import keyboard
 
-# TODO
-# Install python
-# pip install pynput
-# wmic nic get name, index
-
 def on_press(key):
-    try: k = key.char # single-char keys
-    except: k = key.name # other keys
-    if k == 'page_down': # keys interested
+    try: k = key.char
+    except: k = key.name
+    if k == 'page_down':
         print('Key pressed: ' + k)
         subprocess.check_output('netsh interface set interface Wi-Fi enable')
         subprocess.check_output('netsh interface set interface Ethernet disable')
-    elif k == 'page_up': # keys interested
+    elif k == 'page_up':
         print('Key pressed: ' + k)
         subprocess.check_output('netsh interface set interface Ethernet enable')
         subprocess.check_output('netsh interface set interface Wi-Fi disable')
