@@ -1,4 +1,3 @@
-[![BCH compliance](https://bettercodehub.com/edge/badge/VictorHachard/Armand?branch=master)](https://bettercodehub.com/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3f6722dd2de54834bc1c3d2603f20a91)](https://www.codacy.com/gh/VictorHachard/Armand/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VictorHachard/Armand&amp;utm_campaign=Badge_Grade)
 
 # Armand
